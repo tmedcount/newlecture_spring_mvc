@@ -27,7 +27,7 @@
         
         
         <property name="java-output-path" value="/webprj/target/classes"/>
-        <property name="context-root" value="webprj"/>
+        <property name="context-root" value="/"/>
                             
     
     
