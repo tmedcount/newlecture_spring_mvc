@@ -36,9 +36,9 @@
     </bean>
     
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
- 	<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />   
- 	<property name="url" value="jdbc:oracle:thin:@localhost:1521/xepdb1" />   
- 	<property name="username" value="newlec" />   
- 	<property name="password" value="rufdml13" />   
+	 	<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />   
+	 	<property name="url" value="jdbc:oracle:thin:@localhost:1521/xepdb1" />   
+	 	<property name="username" value="newlec" />   
+	 	<property name="password" value="rufdml13" />   
     </bean>
 </beans>
