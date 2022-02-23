@@ -10,7 +10,9 @@ public class HomeController {
 	@RequestMapping("index")
 	public String index() {
 		
+		System.out.println("index 요청이 있었습니다.");
 		return "root.index";
+
 	}
 	
 //	@Override
